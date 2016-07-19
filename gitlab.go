@@ -89,7 +89,7 @@ type VisibilityLevel int
 // List of available visibility levels
 //
 // GitLab API docs: http://doc.gitlab.com/ce/...?
-const (
+var (
 	PrivateVisibility  VisibilityLevel = 0
 	InternalVisibility VisibilityLevel = 10
 	PublicVisibility   VisibilityLevel = 20
